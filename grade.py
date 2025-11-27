@@ -4,7 +4,6 @@ if len(sys.argv) != 6:
     sys.exit()
 marks = list(map(float, sys.argv[1:6]))
 avg = sum(marks) / 5
-
 if avg >= 90:
     grade = "A"
 elif avg >= 75:
