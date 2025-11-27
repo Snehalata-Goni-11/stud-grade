@@ -15,4 +15,4 @@ elif avg >= 40:
 else:
     grade = "Fail"
 print("Average Marks:", avg)
-print("Grade:", grade)
+print("Grade:", grade)
